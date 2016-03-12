@@ -1,32 +1,35 @@
 // css for edition 2015 page //
+.edition2015 {
+  .banner {
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 100%;
+    }
+  }
 
-.banner {
-  overflow: hidden;
-  color: white;
-  text-align: center;
-  height: 50vh;
-  // if you have a 70px navbar => height: calc(100vh - 70px);
-  // background-size: cover !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  img {
-        width: 100%;
+  .palmares {
+    display: flex;
+    flex-wrap: wrap;
+    h1 {
+      flex: 1 100%;
+    }
+    img {
+      width: 100%;
+    }
   }
-}
-
-.palmares {
-  display: flex;
-  flex-wrap: wrap;
-  h1 {
-    flex: 1 100%;
-  }
-  img {
-    width: 100%;
-  }
-}
-.palmares > div {
-  flex: 1;
-  margin: 0px 20px;
+  .palmares > div {
+    flex: 1;
+    margin: 0px 20px;
     text-align: left;
+  }
+
+  .anonyme-excuse {
+    text-align: left;
+  }
 }
