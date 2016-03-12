@@ -23,3 +23,24 @@
 .bg-facebook {
   background: #3b5998;
 }
+
+// Buttons
+.btn-primary {
+  color: #fff;
+  background-color: #E70000;
+  border-color: #a94442;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: rgb(202, 8, 8);
+  border-color: #a94442;
+}
+
+// Links
+a {
+  color: #C50000;
+}
+a:hover {
+  color: #E70000;
+  text-decoration: none;
+}
