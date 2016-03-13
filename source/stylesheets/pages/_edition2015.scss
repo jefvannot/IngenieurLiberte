@@ -4,9 +4,9 @@
     overflow: hidden;
     color: white;
     text-align: center;
-    height: 50vh;
+    height: 80vh;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     img {
       width: 100%;
@@ -32,4 +32,16 @@
   .anonyme-excuse {
     text-align: left;
   }
+}
+
+.container-edition {
+  max-width: 790px;
+  margin: auto;
+  h3 {
+  color: $red;
+  }
+}
+
+.container-grey {
+  background-color: $grey-lighter;
 }

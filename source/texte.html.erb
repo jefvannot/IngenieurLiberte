@@ -1,17 +1,13 @@
 ---
 title: Texte
 ---
-
-<div class="container">
-  <div class="row">
-    <div class="welcome text-center padded">
-      <div>
-        <h1>Gagnez beaucoup de vin d'une manière belle, traduisez !</h1>
-        <p>C'est un chant sans auteur, aussi vagabond qu'un trimardeur, qu'on fredonnera ce printemps. Il a le goût de l'Amérique épique toujours perdue jamais trouvée, cet aigre-doux que connaît bien l'Ingénieur Liberté. Root hog, or die !</p>
-        <p>Le concours est ouvert à tous. Envoyez seulement votre traduction à l'<%= mail_to 'lingenieurliberte@gmail.com', "Ingénieur Liberté" %> avant le 20 mai 2016.</p>
-      </div>
-      <div>
+<div class="container-grey">
+  <div class="container">
+    <div class="row">
+      <div class="welcome text-center padded container-edition">
+        <h1><i class="fa fa-pencil"></i></h1><h2 class="padded-bottom">Voici le texte à traduire avant le 20 mai 2016:</h2>
         <h3>A Philosophical Cowboy</h3>
+        <br>
         <p>On the Double Circle Range where the grass grows green
           <br>The cattle get wild and the broncs get mean
           <br>And the calves get bigger as the days go by,
@@ -41,9 +37,67 @@ title: Texte
           <br>You may work a month and you might work a year
           <br>But you can make a winning if you'll come alive and try
           <br>For the whole world over, boys, it's root hog or die.</p>
-
-        <p><i>Texte tiré de Cowboy and Western Songs, Fine & Fine, tous droits réservés</i></p>
+        <p><br><i>Texte tiré de Cowboy and Western Songs, Fine & Fine, tous droits réservés</i></p>
       </div>
     </div>
   </div>
 </div>
+<div class="container">
+  <div class="row">
+    <div class="welcome text-center padded container-edition">
+      <div class="small-margin padded-bottom">
+        <h1><i class="fa fa-glass"></i></h1>
+        <h1 style="text-align:center">Gagnez beaucoup de vin</h1>
+        <h1 style="text-align:right">d'une manière belle,</h1>
+        <h1 style="text-align:right">traduisez !</h1>
+      </div>
+      <p>C'est un chant sans auteur, aussi vagabond qu'un trimardeur, qu'on fredonnera ce printemps. Il a le goût de l'Amérique épique toujours perdue jamais trouvée, cet aigre-doux que connaît bien l'Ingénieur Liberté. <br>Root hog, or die !</p>
+      <p>Attention le concours est ouvert à tous ! <br>
+      <h3><strong>Avant le 20 mai 2016</strong></h3>
+        Envoyez simplement votre traduction du texte "A philosophical Cowboy" (voir ci-dessus) à l'Ingénieur Liberté <br>à l'adresse mail suivante:
+        <br><br>
+        <i class="fa fa-envelope-o"></i>
+         <i class="fa fa-envelope-o"></i>
+          <i class="fa fa-hand-o-right"></i>
+           <strong>lingenieurliberte@gmail.com</strong>
+            <i class="fa fa-hand-o-left"></i>
+             <i class="fa fa-envelope-o"></i>
+              <i class="fa fa-envelope-o"></i></p>
+        ou alors cliquez la:
+        <br><br>
+        <div class="banner">
+          <div class="banner-content">
+            <%= mail_to 'lingenieurliberte@gmail.com', "J'envoie ma traduction tout de suite !", class:"btn-participe btn btn-success btn-lg" %>
+            <br>
+            <br>
+            <p>
+              Et j'espère gagner beaucoup de vin !
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-grey">
+  <div class="container">
+      <div class="row">
+        <div class="welcome text-center padded container-edition">
+          <h1><i class="fa fa-flag-o"></i></h1>
+          <h2>Et rendez-vous le <strong>dimanche 29 mai 2016 à 19h</strong> pour la <strong>remise des prix en musique </strong> et avec beaucoup de vin !</h2>
+          <h3><strong>Rendez-vous au bar Les Nautes</strong></h3><br> <p><%= link_to "1 quai des Célestins, Paris IVe.", 'https://www.google.fr/maps/place/Les+Nautes/@48.8522468,2.3603011,15z/data=!4m2!3m1!1s0x0:0x8ad577f1eae07154?sa=X&ved=0ahUKEwiw2__XqL7LAhXDORoKHQG5AbMQ_BIIggEwCg' %>
+          <br>
+
+          <%= link_to "http://www.lesnautes.paris/", 'http://www.lesnautes.paris/' %>
+          <br>
+          </p>
+
+
+
+
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
