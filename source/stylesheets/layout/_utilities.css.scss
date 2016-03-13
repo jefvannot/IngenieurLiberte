@@ -6,8 +6,12 @@
 
 // Paddings
 .padded {
-  padding-top: 5em;
-  padding-bottom: 5em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.padded-bottom {
+   padding-bottom: 1em;
 }
 
 // Backgrounds
@@ -25,22 +29,48 @@
 }
 
 // Buttons
+
+
+
+
+
+
+.btn-participe {
+  margin-top: 20px;
+ font-weight: bold;
+ border: none;
+}
+
+.btn-lg {
+  border-color: none;
+}
+
 .btn-primary {
+  font-weight: bold;
   color: #fff;
-  background-color: #E70000;
-  border-color: #a94442;
+  background-color: #15C09A;
+  border: none;
 }
-.btn-primary:hover {
-  color: #fff;
-  background-color: rgb(202, 8, 8);
-  border-color: #a94442;
-}
+
 
 // Links
 a {
-  color: #C50000;
+  color: #15C09A;
+  font-weight: bold;
 }
 a:hover {
-  color: #E70000;
+  color: #0c725b;
   text-decoration: none;
 }
+
+
+.small-margin {
+  max-width: 500px;
+  margin: auto;
+}
+
+.red-text {
+  color: #E70000;
+}
+
+
