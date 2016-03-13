@@ -46,6 +46,18 @@
 .navbar-wagon-link:hover {
   color: $red;
   text-decoration: none;
+  border-color: $red;
+}
+.facebook-link {
+    border: 1px solid #777777;
+    border-radius: 50px;
+    padding: 10px;
+    height: 42px;
+    width: 42px;
+    display: flex;
+    margin-left: 16px;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Navbar right button */
