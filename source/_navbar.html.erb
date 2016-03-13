@@ -1,6 +1,6 @@
 <div class="navbar-wagon">
   <!-- Logo -->
-  <% link_to "/", class: "navbar-wagon-brand" do %>
+  <% link_to "/IngenieurLiberte", class: "navbar-wagon-brand" do %>
     <%= image_tag "logo_cowphilo01.png" %>
   <% end %>
 
@@ -8,18 +8,21 @@
   <div class="navbar-wagon-right hidden-xs hidden-sm">
 
     <!-- Text link -->
-    <a href="/texte" class="navbar-wagon-item navbar-wagon-link">Le Texte à Traduire</a>
+    <a href="/IngenieurLiberte/texte" class="navbar-wagon-item navbar-wagon-link">Le Texte à Traduire</a>
 
     <!-- Text link -->
-    <a href="/edition2015" class="navbar-wagon-item navbar-wagon-link">L'Édition 2015</a>
+    <a href="/IngenieurLiberte/edition2015" class="navbar-wagon-item navbar-wagon-link">L'Édition 2015</a>
+
+    <a href="" class="navbar-wagon-item navbar-wagon-link facebook-link"><i class="fa fa-facebook"></i></a>
+
 
     <!-- Dropdown appearing on mobile only -->
     <div class="navbar-wagon-item hidden-md hidden-lg">
       <div class="dropdown">
         <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
         <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-          <li><%= link_to 'Le Texte à Traduire', '/texte' %></li>
-          <li><%= link_to 'L\'Édition 2015', '/edition2015' %></li>
+          <li><%= link_to 'Le Texte à Traduire', '/IngenieurLiberte/texte' %></li>
+          <li><%= link_to 'L\'Édition 2015', '/IngenieurLiberte/edition2015' %></li>
         </ul>
       </div>
     </div>
