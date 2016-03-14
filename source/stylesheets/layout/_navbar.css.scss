@@ -43,10 +43,21 @@
   color: #616668;
   font-size: 14px;
 }
-.navbar-wagon-link:hover {
+.navbar-wagon-link:active, .navbar-wagon-link:visited {
+  color: #616668;
+  text-decoration: none;
+  i {
+    text-decoration: none;
+  }
+}
+.navbar-wagon-link:hover, .navbar-wagon-link:visited:hover,
+{
   color: $red;
   text-decoration: none;
   border-color: $red;
+  i {
+    text-decoration: none;
+  }
 }
 .facebook-link {
     border: 1px solid #777777;
