@@ -28,13 +28,17 @@
   background: #3b5998;
 }
 
+// Links
+a {
+  color: #15C09A;
+  font-weight: bold;
+}
+a:hover, a:visited {
+  color: #0c725b;
+  text-decoration: none;
+}
+
 // Buttons
-
-
-
-
-
-
 .btn-participe {
   margin-top: 20px;
  font-weight: bold;
@@ -51,18 +55,9 @@
   background-color: #15C09A;
   border: none;
 }
-
-
-// Links
-a {
-  color: #15C09A;
-  font-weight: bold;
+ a.btn-participe:visited {
+  color: #fff;
 }
-a:hover, a:visited {
-  color: #0c725b;
-  text-decoration: none;
-}
-
 
 .small-margin {
   max-width: 500px;
