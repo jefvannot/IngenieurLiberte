@@ -1,0 +1,56 @@
+// css for edition 2015 page //
+.cuvee2015 {
+  .banner {
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    height: 60vh;
+    background-color: #D94E85;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    img {
+      height: 100%;
+    }
+  }
+  .palmares-container {
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+
+  }
+  .palmares {
+    display: flex;
+    flex-wrap: wrap;
+    h1 {
+      flex: 1 100%;
+    }
+    img {
+      width: 100%;
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+  .palmares > div {
+    flex: 1;
+    margin: 0px 20px;
+    text-align: left;
+  }
+
+  .anonyme-excuse {
+    text-align: left;
+  }
+}
+
+.container-edition {
+  max-width: 790px;
+  margin: auto;
+  h3 {
+    color: $red;
+  }
+}
+
+.container-grey {
+  background-color: $grey-lighter;
+}

@@ -1,5 +1,5 @@
 <div class="banner">
-  <%= image_tag "philo_banner.jpg", id: "", class: ""%>
+  <%= image_tag "nautes.jpg", id: "", class: ""%>
 </div>
 <!--
 <div class="banner">
@@ -11,11 +11,10 @@
 </div>
 -->
 
-
 <div class="container-general" >
   <div class="row">
     <div class="welcome text-center padded">
-      <h1><strong>Grand Concours de Traduction</strong><br>Deuxième tournée</h1>
+      <h1><strong>Grand Concours de Traduction</strong><br>Nous sommes tous des Œno-Nautes !</h1>
     </div>
   </div>
 </div>
@@ -27,86 +26,38 @@
       <!-- <h2>Pour la petite histoire...</h2> -->
       <!-- <br> -->
       <p>
-        La remise des prix du premier <strong>concours de traduction organisé en hommage à l'Ingénieur Liberté</strong> eut lieu le 31 août 2015 en la taverne de la Pointe du Groin. Sur des airs de Brecht et d’autres aventuriers, on y but à la santé des lauréats, des audacieuses, des musiciens.
+        Émergeant tardivement des brumes délicieuses du gala, <strong>l'Union des Traducteurs et Non Traducteurs de Villié-Morgon</strong> a enfin retrouvé, dans une forêt de bouteilles vides, quelque peu tachés de vin rouge, les trois textes primés. Vous les trouverez ici.
+        Merci à tous d'être venus si nombreux, si joyeux. Merci à tous les candidats, aux jurés, aux vignerons et aux musiciens, tous vous nous avez régalés ! Et ceci ne restera pas sans suites !
       </p>
       <p>
-      </strong>Ragaillardi par cette fameuse bringue</strong>, l’Ingénieur Liberté n’a pas chômé depuis l’été. Voilà des mois qu’il chevauche à travers les grandes plaines de l’Ouest américain en quête de pépites, de mythes et de coyotes. Certains l’auraient même vu brièvement sur le dos d’un taureau.
-    </p>
-    <p>
-      Il s’amuse, donc, mais le vin, la poésie et la vertu commencent à lui manquer. En prévision de son retour, le 29 mai prochain, l’<strong>Union des Traducteurs et Non-Traducteurs de Villié-Morgon</strong> organise un <strong>second Grand Concours de Traduction ouvert à tous</strong>.
-    </p>
-    <p>C'est un chant sans auteur, aussi vagabond qu'un trimardeur, qu'on fredonnera ce printemps. Il a le goût de l'Amérique épique toujours perdue jamais trouvée, cet aigre-doux que connaît bien l'Ingénieur Liberté.
-    </p>
-    <h4>Root Hog or Die !</h4>
-    <br>
+        <strong>L'Ingénieur Liberté</strong>, quant à lui, suivant son rythme bien personnel, a fini par rejoindre Paris et vous salue poétiquement.
+      </p>
+      <%= link_to 'voir le palmares', '/cuvee2016' , class:"btn-participe btn btn-success btn-lg" %>
+      <h4>Root Hog or Die !</h4>
+      <br>
+    </div>
   </div>
-</div>
 </div>
 
 <div class="padded-bottom">
   <div class="container-general" >
     <div class="row">
-      <div class="welcome text-center padded-bottom">
-        <h2><i class="fa fa-pencil"></i></h2>
-        <h2>Traduisez la chanson :</h2>
-        <div class="">
-          <h3><i class="fa fa-hand-o-right"></i>  <strong><%= link_to "A Philosophical Cowboy", '/texte' %></strong>  <i class="fa fa-hand-o-left"></i></h3>
-        </div>
-        <br>
-        <br>
-        <h2><i class="fa fa-calendar-check-o"></i></h2>
-        <h2>Participez avant le <strong>20 mai 2016</strong></h2>
-        <%= mail_to 'contact@ingenieurliberte.com', "Je participe", class:"btn-participe btn btn-success btn-lg" %>
-        <br>
-        <br>
-        <br>
-        <h1><i class="fa fa-gift"></i></h1>
-        <h2>Et gagnez beaucoup de vin !</h2>
-        <h4><strong>Grand Prix </strong>
-          <br>1 Jéroboam & 3 Magnums de Morgon Lapierre 2015</h4>
-          <i class="fa fa-diamond"></i>
-          <h4><strong>Prix de la musicalité</strong>
-            <br>1 Jéroboam & 3 Magnums de Morgon Lapierre 2015</h4>
-            <i class="fa fa-diamond"></i>
-            <h4 class="padded-bottom"><strong>Prix du rodéo</strong>
-              <br>(anciennement prix de l'audace)
-              <br>1 Jéroboam & 3 Magnums de Morgon Lapierre 2015</h4>
-            </div>
-          </div>
-        </div>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="container-grey padded-bottom">
+  <div class="container-general" >
+    <div class="row">
+      <div class="welcome text-center padded">
+
+        <%= link_to "Je m'abonne à la newsletter", "http://eepurl.com/bpVXxT", class:"btn-participe btn btn-success btn-lg", target: "_blank" %>
+
       </div>
-
-
-      <div class="container-grey padded-bottom">
-        <div class="container-general" >
-          <div class="row">
-            <div class="welcome text-center padded">
-              <div class="col-xs-12 padded">
-                <h1><i class="fa fa-flag-o"></i></h1>
-                <h2>Et le dimanche 29 mai 2016 à 19h</h2>
-                <h2><strong>Gala Oeno-poétique</strong></h2>
-                <h4>Remise des prix en présence de l'Ingénieur Liberté</h4>
-                <br>
-                <h4><strong>Programme des réjouissances</strong></h4>
-                <div class="programm-list">
-                  <h4>19h, mise en condition : Morgon (Lapierre) et Chanson (Victoria & the Guidi's)</h4>
-                  <h4>20h, remise des prix du Grand Concours de Traduction</h4>
-                  <h4>21h, entremise rhythm & blues et soûl music (le Grand Duc du Kansas)</h4></div>
-                </div>
-                <div class="col-xs-12 col-sm-6 text-left">
-                  <h3>Les Nautes nous accueuillent au 1 quai des Célestins, Paris IVe.</h3>
-                  <h4>Entrée gratuite</h4>
-                  <p class="link-blue"><i class="fa fa-link"></i> <%= link_to "http://www.lesnautes.paris/", 'http://www.lesnautes.paris/', target: "_blank" %></p>
-                  <%= link_to "Je m'abonne à la newsletter", "http://eepurl.com/bpVXxT", class:"btn-participe btn btn-success btn-lg", target: "_blank" %>
-
-                </div>
-                <div class="col-xs-12 col-sm-6 padded-bottom">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10501.25089773055!2d2.3603011!3d48.8522468!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8ad577f1eae07154!2sLes+Nautes!5e0!3m2!1sen!2sfr!4v1457890480599" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+    </div>
+  </div>
 
 
 
