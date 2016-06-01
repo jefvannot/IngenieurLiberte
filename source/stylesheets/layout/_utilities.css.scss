@@ -33,9 +33,11 @@ a {
   color: #15C09A;
   font-weight: bold;
 }
-a:hover, a:visited {
-  color: #0c725b;
+a:hover, a:visited, a:visited:hover, a:active, a:link {
   text-decoration: none;
+}
+a:hover {
+  color: #0c725b;
 }
 
 // Buttons
@@ -43,6 +45,14 @@ a:hover, a:visited {
   margin-top: 20px;
  font-weight: bold;
  border: none;
+}
+
+.thin-btn {
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 6px;
+  padding: 0px 10px;
+  border: none;
 }
 
 .btn-lg {

@@ -1,18 +1,24 @@
-// css for edition 2015 page //
-.edition2015 {
+// css for edition 2016 page //
+.cuvee2016 {
   .banner {
     overflow: hidden;
     color: white;
     text-align: center;
-    height: 80vh;
+    height: 60vh;
+    background-color: #99342C;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     img {
-      width: 100%;
+      height: 100%;
     }
   }
+  .palmares-container {
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
 
+  }
   .palmares {
     display: flex;
     flex-wrap: wrap;
@@ -21,6 +27,9 @@
     }
     img {
       width: 100%;
+    }
+    p {
+      font-size: 14px;
     }
   }
   .palmares > div {
@@ -38,9 +47,10 @@
   max-width: 790px;
   margin: auto;
   h3 {
-  color: $red;
+    color: $red;
   }
 }
+
 
 .container-grey {
   background-color: $grey-lighter;

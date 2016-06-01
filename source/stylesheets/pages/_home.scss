@@ -4,12 +4,14 @@
     overflow: hidden;
     color: white;
     text-align: center;
-    max-height: 70vh;
+    height: 70vh;
+    // background-color: #D42B2E;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     img {
       width: 100%;
+      margin-top: -150px;
     }
   }
   // .banner {
@@ -42,10 +44,10 @@
     p {
       text-align: left;
     }
-  .programm-list {
-    text-align: left;
-    padding-left: 4em;
-  }
+    .programm-list {
+      text-align: left;
+      padding-left: 4em;
+    }
   }
 }
 
