@@ -49,6 +49,43 @@
       padding-left: 4em;
     }
   }
+
+  .circle-link {
+    background-color: $green;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding-top: 8px;
+    margin: auto;
+    margin-top: -26px;
+        position: relative;
+    p {
+      font-size: 12px;
+      color: $green;
+      text-decoration: none;
+      text-transform: uppercase;
+      margin-top: 18px;
+      margin-left: 1px;
+      font-weight: 600;
+    }
+  }
+  .circle-link:hover {
+    background-color: #0c725b;
+  }
+  .arrow-to-top {
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    margin-left: -8px;
+    margin-top: 4px;
+  }
 }
 
 
