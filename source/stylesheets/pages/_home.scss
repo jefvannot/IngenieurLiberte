@@ -1,36 +1,27 @@
 .index {
   .banner {
-    background: url(homepagelomimachine.jpg);
     overflow: hidden;
     color: white;
     text-align: center;
-    height: 70vh;
-    // background-color: #D42B2E;
+    /*height: 82vh;*/
+    /*background-color: #D42B2E;*/
+    max-height: calc(100vh - 100px);
     display: flex;
     align-items: flex-start;
     justify-content: center;
     img {
       width: 100%;
-      margin-top: -150px;
+      /*margin-top: -150px;*/
     }
   }
-  // .banner {
-  //   color: white;
-  //   text-align: center;
-  //   height: 80vh;
-  //   // height: calc(100vh - 70px);
-  //   // background: url(homepagelomimachine.jpg);
-  //   // background: linear-gradient(-225deg, rgba(45, 45, 45, 0.37) 0%, rgba(27, 27, 27, 0.53) 50%), url('/images/philocow.jpg');
-  //   background: url('/images/philo_banner.jpg');
-  //   background-size: cover !important;
-  //   display: flex;
-  //   align-items: flex-start;
-  //   justify-content: center;
-  // }
   .banner h1 {
     font-size: 50px;
     font-weight: bold;
     text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  }
+  h3 {
+    font-size: 24px;
+    line-height: 1.4;
   }
   .banner p {
     font-size: 20px;
@@ -41,8 +32,9 @@
   .container-general {
     max-width: 790px;
     margin: auto;
-    p {
-      text-align: left;
+    padding: 2em;
+    .title {
+      font-size: 18px;
     }
     .programm-list {
       text-align: left;
@@ -51,8 +43,8 @@
   }
 
   .circle-link {
-    background-color: $green;
-    border: 1px solid white;
+    background-color: $annual-color;
+    /*border: 1px solid white;*/
     width: 50px;
     height: 50px;
     -webkit-border-radius: 50%;
@@ -60,10 +52,10 @@
     padding-top: 8px;
     margin: auto;
     margin-top: -26px;
-        position: relative;
+    position: relative;
     p {
       font-size: 12px;
-      color: $green;
+      color: $annual-color;
       text-decoration: none;
       text-transform: uppercase;
       margin-top: 18px;
@@ -72,7 +64,7 @@
     }
   }
   .circle-link:hover {
-    background-color: #0c725b;
+    background-color: $annual-color-hover;
   }
   .arrow-to-top {
     border-left: 2px solid white;
@@ -88,6 +80,17 @@
   }
 }
 
+.arabic-text {
+  margin: auto;
+  /*width: 70%;*/
+  font-size: 20px;
+  &-title {
+    font-size: 24px;
+  }
+  &-credit {
+    font-size: 12px;
+  }
+}
 
 .btn-text {
   color: #999999;
@@ -98,5 +101,15 @@
   opacity: 0.6;
 }
 
+.container-grey {
+  background-color: $grey-lighter;
+}
+.container-edition {
+  max-width: 790px;
+  margin: auto;
+  h3 {
+    color: $red;
+  }
+}
 
 

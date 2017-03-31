@@ -5,26 +5,30 @@
   <% end %>
 
   <!-- Right Navigation -->
-  <div class="navbar-wagon-right hidden-xs hidden-sm">
+  <div class="navbar-wagon-right">
 
-    <!-- Text link -->
-    <a href="/cuvee2016" class="navbar-wagon-item navbar-wagon-link">Cuvée 2016</a>
-
-    <!-- Text link -->
-    <a href="/cuvee2015" class="navbar-wagon-item navbar-wagon-link">Cuvée 2015</a>
-
-    <a href="http://www.facebook.com/ingenieurliberte" class="navbar-wagon-item navbar-wagon-link facebook-link" target="_blank"><i class="fa fa-facebook"></i></a>
-
+    <div class="navbar-wagon-right hidden-xs hidden-sm">
+      <!-- Text link -->
+      <a href="/ingenieurliberte" class="navbar-wagon-item navbar-wagon-link">L'Ingénieur Liberté</a>
+      <!-- Text link -->
+      <a href="/cuvee2016" class="navbar-wagon-item navbar-wagon-link">Cuvée 2016</a>
+      <!-- Text link -->
+      <a href="/cuvee2015" class="navbar-wagon-item navbar-wagon-link">Cuvée 2015</a>
+      <!-- Facebook link -->
+      <a href="http://www.facebook.com/ingenieurliberte" class="navbar-wagon-item navbar-wagon-link facebook-link" target="_blank"><i class="fa fa-facebook"></i></a>
+    </div>
 
     <!-- Dropdown appearing on mobile only -->
     <div class="navbar-wagon-item hidden-md hidden-lg">
       <div class="dropdown">
         <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
         <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-          <li><%= link_to 'Le Texte à Traduire', '/texte' %></li>
+          <li><%= link_to 'L\'Ingénieur Liberté', '/ingenieurliberte' %></li>
+          <li><%= link_to 'L\'Édition 2016', '/cuvee2016' %></li>
           <li><%= link_to 'L\'Édition 2015', '/edition2015' %></li>
         </ul>
       </div>
     </div>
+
   </div>
 </div>

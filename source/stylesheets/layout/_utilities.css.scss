@@ -4,17 +4,16 @@
  * Feel free to change them and create your own
  * ------------------------------------- */
 
-// Paddings
+/*Paddings*/
 .padded {
   padding-top: 2em;
   padding-bottom: 2em;
 }
-
 .padded-bottom {
    padding-bottom: 1em;
 }
 
-// Backgrounds
+/*Backgrounds*/
 .bg-text {
   background: #4a4a4a;
 }
@@ -28,25 +27,32 @@
   background: #3b5998;
 }
 
-// Links
+/*Links*/
 a {
-  color: #15C09A;
+  color: $annual-color;
   font-weight: bold;
 }
 a:hover, a:visited, a:visited:hover, a:active, a:link {
   text-decoration: none;
 }
 a:hover {
-  color: #0c725b;
+  color: $annual-color-hover;
 }
 
-// Buttons
+/*Buttons*/
+.btn-success {
+  background-color: $annual-color;
+}
+.btn-success:hover, .btn-success:visited, 
+.btn-success:visited:hover, .btn-success:active,
+.btn-success:focus {
+  background-color: $annual-color-hover;
+}
 .btn-participe {
   margin-top: 20px;
- font-weight: bold;
- border: none;
+  font-weight: bold;
+  border: none;
 }
-
 .thin-btn {
   font-size: 14px;
   font-weight: normal;
@@ -54,28 +60,49 @@ a:hover {
   padding: 0px 10px;
   border: none;
 }
-
 .btn-lg {
   border-color: none;
 }
-
 .btn-primary {
   font-weight: bold;
   color: #fff;
-  background-color: #15C09A;
+  background-color: $annual-color;
   border: none;
 }
  a.btn-participe:visited {
   color: #fff;
 }
-
 .small-margin {
   max-width: 500px;
   margin: auto;
 }
-
 .red-text {
   color: #E70000;
 }
+
+/*Text*/
+.text-left {
+  text-align: left;
+}
+.text-annual-color {
+  color: $annual-color;
+}
+.indented {
+  margin: 2em 0;
+  p {
+    text-indent: 1em;
+    margin: 0;
+  }
+}
+h3 {
+  font-size: 24px;
+}
+
+/*Bordered*/
+.bordered-green {
+  border: solid $annual-color 4px;
+}
+
+
 
 

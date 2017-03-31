@@ -17,7 +17,6 @@
     width: 100%;
     padding-left: 25px;
     padding-right: 25px;
-
   }
   .palmares {
     display: flex;
@@ -37,21 +36,6 @@
     margin: 0px 20px;
     text-align: left;
   }
-
-  .anonyme-excuse {
-    text-align: left;
-  }
-}
-
-.container-edition {
-  max-width: 790px;
-  margin: auto;
-  h3 {
-    color: $red;
-  }
 }
 
 
-.container-grey {
-  background-color: $grey-lighter;
-}
