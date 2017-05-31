@@ -22,6 +22,15 @@
   .container {
     max-width: 790px;
     margin: auto;
+    i {
+      color: $annual-color;
+    }
+    i:hover {
+      color: $annual-color-hover;
+    }
+    .fa {
+      font-size: 26px;
+    }
   }
   .archive-link {
     display: flex;
@@ -36,8 +45,7 @@
       }
     }
   }
-  .fa {
-    font-size: 26px;
-  }
+
+
 }
 

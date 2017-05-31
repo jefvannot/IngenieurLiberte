@@ -1,0 +1,18 @@
+// css for utntvm page //
+
+.utntvm {
+  .container {
+    padding: 10vh 0;
+  }
+  .profil {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    p {
+      text-align: center;
+    }
+  }
+}
+
