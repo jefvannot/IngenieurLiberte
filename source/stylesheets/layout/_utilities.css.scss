@@ -5,9 +5,14 @@
  * ------------------------------------- */
 
 /*Paddings*/
-.padded {
-  padding-top: 2em;
-  padding-bottom: 2em;
+.padded-1 {
+  padding: 1em 0;
+}
+.padded-2 {
+  padding: 2em 0;
+}
+.padded-3 {
+  padding: 3em 0;
 }
 .padded-bottom {
    padding-bottom: 1em;
@@ -79,6 +84,15 @@ a:hover {
 .red-text {
   color: #E70000;
 }
+.white-text {
+  color: white;
+}
+.white-text  a {
+  color: white;
+}
+.white-text  a:hover {
+  color: yellow;
+}
 
 /*Text*/
 .text-left {
@@ -87,6 +101,10 @@ a:hover {
 .text-annual-color {
   color: $annual-color;
 }
+.background-annual-color {
+  background-color: $annual-color;
+}
+
 .indented {
   margin: 2em 0;
   p {
