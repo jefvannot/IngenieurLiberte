@@ -5,24 +5,20 @@
     color: white;
     text-align: center;
     height: 60vh;
-    /*background-color: #99342C;*/
     display: flex;
     align-items: flex-start;
     justify-content: center;
     img {
       height: 100%;
+      margin-top: -10px;
     }
     &-legend {
       font-size: 12px;
     }
   }
-  .banner-top img {
-    margin-top: -10px;
-  }
   .container {
     max-width: 790px;
     margin: auto;
-
     i {
       color: $annual-color;
     }
@@ -39,13 +35,9 @@
     padding: 2em;
     align-items: center;
     margin-bottom: 5em;
-    h4 {
-      /*color: white;*/
-      i {
-        font-size: 34px;
-      }
+    h4 i {
+      font-size: 34px;
     }
   }
-
 }
 

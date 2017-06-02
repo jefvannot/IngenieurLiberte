@@ -4,7 +4,7 @@
  * Feel free to change them and create your own
  * ------------------------------------- */
 
-/*Paddings*/
+/* Paddings */
 .padded-1 {
   padding: 1em 0;
 }
@@ -18,7 +18,7 @@
    padding-bottom: 1em;
 }
 
-/*Backgrounds*/
+/* Backgrounds */
 .bg-text {
   background: #4a4a4a;
 }
@@ -32,7 +32,7 @@
   background: #3b5998;
 }
 
-/*Links*/
+/* Links */
 a {
   color: $annual-color;
   font-weight: bold;
@@ -44,7 +44,7 @@ a:hover {
   color: $annual-color-hover;
 }
 
-/*Buttons*/
+/* Buttons */
 .btn-success {
   background-color: $annual-color;
 }
@@ -86,7 +86,7 @@ a:hover {
   color: yellow;
 }
 
-/*Text*/
+/* Text */
 .text-left {
   text-align: left;
 }
@@ -108,11 +108,21 @@ h3 {
   font-size: 24px;
 }
 
-/*Bordered*/
-.bordered-green {
+/* Bordered */
+.bordered-annual-color {
   border: solid $annual-color 4px;
 }
 
-
+/* Containers */
+.container-grey {
+  background-color: $grey-lighter;
+}
+.container-edition {
+  max-width: 790px;
+  margin: auto;
+  h3 {
+    color: $red;
+  }
+}
 
 
