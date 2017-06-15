@@ -10,14 +10,11 @@
     align-items: flex-start;
     justify-content: center;
     img {
-      /*height: 100%;*/
       width: 100%;
     }
   }
   .palmares-container {
     width: 100%;
-    padding-left: 25px;
-    padding-right: 25px;
   }
   .palmares {
     display: flex;
@@ -30,14 +27,15 @@
     }
   }
   .palmares > div {
-    flex: 1;
-    margin: 0px 20px;
-    text-align: left;
+    img {
+      max-width: 24em;
+    }
   }
 
-  @media (max-width: 425px) {
+    @media (min-width: 425px) {
     .palmares > div {
-      flex: 1 100%;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 }
