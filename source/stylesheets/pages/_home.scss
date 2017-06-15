@@ -1,9 +1,4 @@
 .index {
-	h3 {
-		font-size: 24px;
-		line-height: 1.4;
-		margin: 1em 0;
-	}
 	.banner {
 		overflow: hidden;
 		color: white;
@@ -12,14 +7,18 @@
 		display: flex;
 		align-items: flex-start;
 		justify-content: center;
+		min-height: 42vw;
+    max-height: 42vh;
+    position: relative;
 		img {
 			width: 100%;
-			margin: -200px;
+			position: absolute;
+    	bottom: -84px;
 		}
 		.credit {
 			position: absolute;
-		    right: 0.2em;
-		    font-size: 10px;
+			right: 0.2em;
+			font-size: 10px;
 		}
 	}
 	.container-general {
@@ -33,9 +32,9 @@
 	.container i:hover {
 		color: $annual-color-hover;
 	}
-	
+
 	/* flèche bas de banner */
-	.circle-link {
+/*	.circle-link {
 		background-color: $annual-color;
 		width: 50px;
 		height: 50px;
@@ -70,7 +69,7 @@
 		margin-left: -8px;
 		margin-top: 4px;
 	}
-
+*/
 	.pre-footer {
 		padding: 1em 0 0 0;
 		p {
@@ -79,18 +78,25 @@
 		a {
 			margin: auto;
 		}
+		.btn-newsletter {
+			border: none;
+		}
 	}
-	.gg-map {
-		display: flex;
-		justify-content: center;
-	}
-	.btn-newsletter {
-		border: none;
-	}
+
 	.footer {
 		background-color: $grey-lighter;
 		margin: 0;
 	}
+
+	@media (max-width: 425px) {
+		.pre-footer p { font-size: 11px; }
+		.btn-newsletter { font-size: 14px; }
+	}
+	@media (max-width: 320px) {
+		.pre-footer p { font-size: 10px; }
+		.btn-newsletter { font-size: 14px; }
+	}
+
 }
 
 

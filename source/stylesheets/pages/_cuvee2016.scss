@@ -4,13 +4,14 @@
     overflow: hidden;
     color: white;
     text-align: center;
-    height: 60vh;
+    max-height: 60vh;
     background-color: #99342C;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     img {
-      height: 100%;
+      /*height: 100%;*/
+      width: 100%;
     }
   }
   .palmares-container {
@@ -27,14 +28,17 @@
     img {
       width: 100%;
     }
-    p {
-      font-size: 14px;
-    }
   }
   .palmares > div {
     flex: 1;
     margin: 0px 20px;
     text-align: left;
+  }
+
+  @media (max-width: 425px) {
+    .palmares > div {
+      flex: 1 100%;
+    }
   }
 }
 
